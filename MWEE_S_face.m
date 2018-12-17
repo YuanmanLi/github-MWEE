@@ -7,7 +7,7 @@ close all;clear;clc;
 addpath Data clustering Functions
 Occlusion='25'; %'0'
 
-cur_size =  [96,84];%;
+cur_size =  [96,84];
 K = 2; %[2, 4, 6, 8, 10];
 dataset = sprintf('EYaleB_cluster_crop%dx%d_%s_Occlusion', cur_size(1), cur_size(2), Occlusion);
 sigma_size = 4;

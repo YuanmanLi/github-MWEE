@@ -8,7 +8,7 @@ clc, clear all, close all
 dbstop if error
 addpath clustering 
 
-Dataset = '..\Hopkins155';
+Dataset = 'Hopkins155';
 
 alpha = 800;
 maxNumGroup = 5;
